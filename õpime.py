@@ -18,3 +18,8 @@ print("What is your age " + name + "?")
 age = input(">")
 
 print("Cool! You will be turning " + str(int(age) + 1) + " in a year.")
+
+# githubi käsklused:
+#git add .
+#git commit -m "kirjelda mida tegid"
+#git push
