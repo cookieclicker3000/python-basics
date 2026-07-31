@@ -23,3 +23,4 @@ print("Cool! You will be turning " + str(int(age) + 1) + " in a year.")
 #git add .
 #git commit -m "kirjelda mida tegid"
 #git push
+
