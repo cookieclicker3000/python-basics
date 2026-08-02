@@ -12,9 +12,10 @@ print("I am thinking of a number between 1 and 20")
 
 
 for guesses_taken in range (1,7):
-    print("You have " + str(guesses_taken) + " tries to guess the number!")
+    tries_left = 7 - guesses_taken
+    print("You have " + str(tries_left) + " tries to guess the number!")
     guess = int(input(">"))
-    
+   
 
     if guess > number:
         print("GUESS LOWER!")
