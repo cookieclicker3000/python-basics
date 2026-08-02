@@ -35,16 +35,44 @@ while True:
     programmi_käik = [1, 2, 8]
     programmi_käik = random.choice(programmi_käik)
 
-    print("PABER versus...")
 
-    if programmi_käik == 1:
-        print("KÄÄRID")
 
-    elif programmi_käik == 2:
-        print("PABER")
+    if your_move == "q":
+        sys.exit()
 
-    elif programmi_käik == 8:
-        print("KIVI")
+
+
+    if your_move == "r":
+        print("KIVI versus...")
+        if programmi_käik == 1:
+            print("KÄÄRID")
+        elif programmi_käik == 2:
+                print("PABER")
+        elif programmi_käik == 8:
+                print("KIVI")
+
+
+    if your_move == "p":
+        print("PABER versus...")
+        if programmi_käik == 1:
+            print("KÄÄRID")
+        elif programmi_käik == 2:
+                print("PABER")
+        elif programmi_käik == 8:
+                print("KIVI")
+
+
+
+    if your_move == "s":
+        print("KÄÄRID versus...")
+        if programmi_käik == 1:
+            print("KÄÄRID")
+        elif programmi_käik == 2:
+                print("PABER")
+        elif programmi_käik == 8:
+                print("KIVI")
+
+
 
 
 
